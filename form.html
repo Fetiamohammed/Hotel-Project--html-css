@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css" />
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="title">LOREM HOTEL</div>
+            <div class="navbarlinks">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">RESERVE</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="index.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+        <form class="booking-form">
+            <h3 style="color: white;text-align: center;">Booking form</h3>
+            <div class="booking">
+                <label for="firstname">
+                    <input
+                        type="text"
+                        id="firstname"
+                        name="visitor_name"
+                        placeholder="FIRST NAME"
+                    />
+                </label>
+                <label for="lastname">
+                    <input
+                        type="text"
+                        id="lastname"
+                        name="visitor_name"
+                        placeholder="LAST NAME"
+                    />
+                </label>
+                <input
+                    type="email"
+                    id="email"
+                    name="E-mail"
+                    placeholder="E-mail"
+                    required
+                />
+                <input
+                    type="tel"
+                    id="phone"
+                    name="visitor_phone"
+                    placeholder="070-0000-0000"
+                    required
+                />
+                <input
+                    type="number"
+                    id="adult"
+                    name="total_adults"
+                    placeholder="No.of ADELTS"
+                    min="1"
+                    required
+                />
+                <input
+                    type="number"
+                    id="child"
+                    name="total_children"
+                    placeholder="No. of CHILD"
+                    min="0"
+                    required
+                />
+                <label for="check-in"
+                    >check-in-date</label>
+                    <input
+                        type="date"
+                        id="check-in"
+                        name="check-in-date"
+                        required
+                />
+                <label for="Check-out"
+                    >Check-out-date</label>
+                    <input
+                        type="date"
+                        id="Check-out"
+                        name="Check-out-date"
+                        required
+                    />
+            </div>
+            <!--validated-->
+
+            <!-- <div class="booking">
+                <label for="room-selection">Select Room Preference</label>
+                <select id="room-selection" name="room_preference" required>
+                    <option value="">Select a Room</option>
+                    <option value="SINGLEBEDROOM">SINGLE BEDROOM</option>
+                    <option value="DELUX">DELUX</option>
+                    <option value="FAMILYROOM">FAMILY-ROOM</option>
+                </select>
+            </div> -->
+            <button type="submit">BOOK NOW</button>
+        </form>
+        <footer class="foot-container">
+            <div id="CONTACT">
+              <div>
+                <ul>
+                  <li style="color: white;"><a href="index.html">Adress</a>
+                      08-00-00-00<br>
+                      loremgatan 23<br>
+                      stockholm
+                  </li>
+                  <li><a href="https://sv-se.facebook.com/">FACEBOOK</a></li>
+                  <li><a href="https://twitter.com/">TWITTER</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+    </body>
+</html>
+<!--validated-->

@@ -1,0 +1,185 @@
+body {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: rgb(56, 36, 36);
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(49, 4, 4);
+    color: white;
+    transition:0.4s ease-in-out ;
+    margin-bottom: 0px;
+}
+.title {
+    font-size: 24px;
+    margin: 8px;
+    font-weight: bold;
+}
+/*validated*/
+.navbar-links {
+    height: 100%;
+    background-color:rgb(68, 5, 5);
+}
+
+.navbarlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbarlinks ul li {
+    list-style: none;
+}
+.navbarlinks ul li a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+/* make them display background color when we move the crusor on them*/
+
+.navbarlinks ul li:hover {
+    background-color: rgb(204, 174, 136);
+}
+/*validated*/
+@media screen and (max-width: 700px) {
+
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(68, 5, 5);
+}
+
+.navbar-links {
+    width: 100%;
+    height: 20vh;
+    display: none;
+}
+
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbarlinks ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-links ul li a {
+    padding: 1px 2px;
+}
+
+.navbarlinks ul li:hover {
+    background-color: rgb(204, 174, 136);
+}
+
+.title {
+    margin-top: 2vw;
+    font-size: 20px;
+}
+}
+/*validated*/
+.booking-form {
+    width: 360px;
+    height: auto;
+    border: solid 2px white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.booking {
+    width: 300px;
+    margin: 20px;
+    padding: 6px;
+    color: white;
+    background-color: rgb(74, 73, 73, 0.5);
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    font-size: medium;
+    /* border: 2px solid white; */
+}
+
+input {
+    border-radius: 2px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    font-size: small;
+    font-family: sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: transparent;
+    margin-right: 7px;
+    caret-color: white;
+    display: inline-block;
+    color: #eee;
+    justify-content: center;
+}
+label {
+    width: 300px;
+}
+
+button {
+    height: 30px;
+    background: rgba(113, 111, 106, 0.5);
+    border: none;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+#CONTACT {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(75, 2, 2);
+}
+.foot-container ul{
+    margin: 30px;
+    padding: 2px;
+    justify-content: space-between;
+    display: flex;
+}
+.foot-container ul li {
+    list-style: none;
+}
+
+.foot-container ul li a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display:block;
+    cursor: pointer;
+    align-items:center
+    }
+/*validated*/
+@media only screen and (max-width: 600px) {
+    .booking-form {
+        width: 340px;
+        height: auto;
+        border: solid 2px white;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+
+    }
+}
